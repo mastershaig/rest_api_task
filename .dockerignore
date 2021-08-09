@@ -1,0 +1,16 @@
+.idea/
+.venv/
+_frontend/
+media/
+pgdb/
+redisdb/
+client_react/
+contributors.txt
+*.pyc
+.git/
+_backup/
+_client_react/
+_data/
+_development/
+_front-admin/
+_front-website/

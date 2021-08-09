@@ -1,0 +1,10 @@
+pgdb/
+.idea
+media/*
+.venv
+db.sqlite3
+*.pyc
+localhost/
+_backup
+.DS_Store
+venv/
