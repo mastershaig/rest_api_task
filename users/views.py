@@ -38,8 +38,6 @@ class UserLoginView(RetrieveAPIView):
 
 class UserView(RetrieveAPIView):
     permission_classes = [IsAuthenticated]
-    http_method_names = ["GET"]
-    serializer_class = UserSerializer
 
     def get(self, request):
         serializer = UserSerializer(request.user)
