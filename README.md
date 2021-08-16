@@ -2,17 +2,17 @@
 Using a python web framework, you must build a REST web service that exposes CRUD
 functionality to a database that stores carbon usage data for customers.
 
-###Database
+## Database
 The database should have at least this structure. Feel free to make your data structure
 more complex, but be prepared to explain it if it is not obvious.
 
-###user
+### user
 |  field name       |  type          |
 | ------------- |:-------------:|
 | id      | long |
 | name      | sring      |  
 
-###usage
+### usage
 |  field name       |  type          |
 | ------------- |:-------------:|
 | id      | long |
@@ -21,7 +21,7 @@ more complex, but be prepared to explain it if it is not obvious.
 | usage_at      | datetime      |  
 | amount      | float      |  
 
-###usage_types
+### usage_types
 |  field name       |  type          |
 | ------------- |:-------------:|
 | id      | long |
@@ -31,7 +31,7 @@ more complex, but be prepared to explain it if it is not obvious.
 
 
 ### Data
-###usage_types
+### usage_types
 |  id  | name | unit | factor |
 | ---- |:----:|:----:|:------:|
 | 100 | electricity | kwh | 1.5 |
@@ -40,7 +40,7 @@ more complex, but be prepared to explain it if it is not obvious.
 | 103 | heating | l | 8.57 |
 | 104 | heating | m3 | 19.456 |
 
-###Requirements
+### Requirements
 - The backend must be made in a python web framework
 - You must use an ORM such as SQLAlchemy or Django
 - Your backend supports authentication (It's built in to Django)
